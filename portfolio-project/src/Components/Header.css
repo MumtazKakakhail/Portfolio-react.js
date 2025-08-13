@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 0.8rem;
+    justify-content: space-evenly;
+}
