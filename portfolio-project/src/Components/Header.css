@@ -6,6 +6,9 @@
     display: flex;
     justify-content: space-between;
     padding: 1.1rem;
+    background-color: rgb(21, 21, 48);
+    color: white;
+    text-decoration: none;
 }
 .nav-links {
     display: flex;
@@ -14,4 +17,21 @@
     text-decoration: none;
     gap: 0.8rem;
     justify-content: space-evenly;
+    font-size: 1rem;
+    
+}
+.nav-links li {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    align-items: center;
+}
+.nav-links  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    align-items: center;
+}
+.nav-links  a:hover {
+    color: chocolate;
 }
