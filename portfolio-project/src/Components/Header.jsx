@@ -8,7 +8,7 @@ function Header() {
         <ul className="nav-links">
           <li><a href="">Home</a></li>
           <li><a href="">About Me</a></li>
-          <li><a href=""></a>Projects</li>
+          <li><a href="">Projects</a></li>
           <li><a href="">Contacts</a></li>
           <li><a href=""></a></li>
         </ul>
