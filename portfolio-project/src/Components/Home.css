@@ -1,0 +1,42 @@
+.Hero-section {
+background-color: rgb(18, 13, 32);
+padding: 1.5rem;
+}
+.Hero {
+display: flex;
+flex-direction: column;
+/* margin: 0.5rem; */
+padding:1rem;
+padding-left: 2rem;
+
+} 
+span {
+    color: orange;
+}
+ .Hero h2 {
+    padding: 0.5rem;
+    color: white;
+ }
+ .Hero h3 {
+    padding: 0.5rem;
+     color: white;
+ }
+ .Hero h4 {
+    padding: 1.5rem;
+     color: rgb(216, 212, 212);
+ }
+ .Hero-button button {
+background-color: rgb(18, 13, 32);
+padding: 0.9rem;
+margin: 2.5rem;
+/* margin-left: 2.5rem; */
+border-color: rgb(235, 194, 59);
+ }
+  
+.Hero-button button a {
+color: aliceblue;
+text-decoration: none;
+}
+.Hero-button button a:hover {
+    color: orange;
+}
