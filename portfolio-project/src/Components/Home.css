@@ -1,6 +1,8 @@
 .Hero-section {
-background-color: rgb(18, 13, 32);
-padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(18, 13, 32);
+    padding: 1.5rem;
 }
 .Hero {
 display: flex;
@@ -14,18 +16,21 @@ span {
     color: orange;
 }
  .Hero h2 {
+    font-size: 1.8rem;
     padding: 0.5rem;
     color: white;
  }
  .Hero h3 {
+    font-size: 2rem;
     padding: 0.5rem;
      color: white;
  }
  .Hero h4 {
+    font-size: 1.3rem;
     padding: 1.5rem;
     color: rgb(209 204 204);
  }
- .Hero-button button {
+ .Hero button {
 background-color: rgb(18, 13, 32);
 padding: 0.9rem;
 margin: 2.5rem;
@@ -33,10 +38,13 @@ margin: 2.5rem;
 border-color: rgb(235, 194, 59);
  }
   
-.Hero-button button a {
+.Hero button a {
 color: aliceblue;
 text-decoration: none;
 }
-.Hero-button button a:hover {
+.Hero button a:hover {
     color: orange;
+}
+.Hero-img {
+    display: flex;
 }
