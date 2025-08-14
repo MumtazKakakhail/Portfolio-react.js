@@ -32,7 +32,7 @@ span {
  }
  .Hero button {
 background-color: rgb(18, 13, 32);
-padding: 0.9rem;
+padding: 0.9rem 0.1rem;
 margin: 2.5rem;
 /* margin-left: 2.5rem; */
 border-color: rgb(235, 194, 59);

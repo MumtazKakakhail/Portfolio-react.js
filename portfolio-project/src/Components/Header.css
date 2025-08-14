@@ -5,7 +5,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-   padding: 1rem 3.58rem;
+    padding: 1rem 3.58rem;
     background-color:rgb(18, 13, 32);
     color: white;
     text-decoration: none;
