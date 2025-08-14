@@ -47,4 +47,5 @@ text-decoration: none;
 }
 .Hero-img {
     display: flex;
+    padding-right: 1rem;
 }
