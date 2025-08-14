@@ -6,11 +6,10 @@ function Home() {
     <div className='Hero-section'>
         
             <div className='Hero'>
-                <h3>Hello <span>.</span></h3>
+                  <h3>Hello <span>.</span></h3>
                 <h4>I'm Mumtaz Wali</h4>
                 <h2>Front-End Developer</h2>
                <button><a href="">My resume</a></button>
-
             </div>
             {/* <div className="Hero-button">
             </div> */}

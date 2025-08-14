@@ -30,6 +30,7 @@ span {
     padding: 1.5rem;
     color: rgb(209 204 204);
  }
+
  .Hero button {
 background-color: rgb(18, 13, 32);
 padding: 0.9rem 0.1rem;
@@ -49,3 +50,4 @@ text-decoration: none;
     display: flex;
     padding-right: 1rem;
 }
+
