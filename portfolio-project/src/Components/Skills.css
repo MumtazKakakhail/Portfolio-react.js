@@ -21,7 +21,7 @@
   padding: 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+}   
 .skill-card:hover {
   border: 2px solid #818be6;
   box-shadow: 0 0 2px #7a83d6;
