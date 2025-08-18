@@ -3,7 +3,7 @@ import "../Components/Home.css"
 import heroImage from "./images/img1.png"
 function Home() {
   return (
-    <div className='Hero-section'>
+    <div id='home' className='Hero-section'>
 
       <div className='Hero'>
         <h3>Hello <span>.</span></h3>

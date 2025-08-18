@@ -6,7 +6,7 @@ import { RxLightningBolt } from "react-icons/rx";
 import { LuUsers } from "react-icons/lu";
 function AboutMe() {
     return (
-        <div className="About">
+        <div id="about" className="About">
             <div className="About-Me">
                 <h2 className="Me">About Me</h2>
                 <p className="para-me">
