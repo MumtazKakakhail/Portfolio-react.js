@@ -3,6 +3,8 @@ import "./Skills.css"
 function Skills() {
   return (
     <div className='Skills'>
+        <h2>SKILLS</h2>
+
       <div className='skill-cards'>
         <div className="skill-card">HTML5</div>
         <div className="skill-card">CSS</div>
