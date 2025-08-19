@@ -28,16 +28,26 @@
   gap: 1rem;
   margin-bottom: 1.2rem;
 }
-
+.contact a {
+    text-decoration: none;
+    color: #cbd5e1;
+}
+.contact span {
+      color: #cbd5e1;
+}
 .contact-icon {
   color: #2563eb;
   font-size: 1.5rem;
+}
+.social a {
+    color: white; 
+    padding: 0.2rem;
 }
 
 .contact-form {
   flex: 1 1 400px;
   min-width: 320px;
-  background: #fff;
+  background:rgb(11, 14, 41);
   padding: 2rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.08);
@@ -66,7 +76,7 @@
 
 .form-group label {
   font-size: 1rem;
-  color: #374151;
+  color: #f4f6f8;
   font-weight: 500;
 }
 
@@ -76,7 +86,7 @@
   border: 1px solid #cbd5e1;
   border-radius: 6px;
   font-size: 1rem;
-  background: #f1f5f9;
+  background:rgb(52, 54, 68);
   transition: border-color 0.2s;
   resize: vertical;
 }

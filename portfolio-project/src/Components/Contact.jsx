@@ -3,6 +3,8 @@ import "./Contact.css"
 import { AiOutlineMail } from "react-icons/ai";
 import { CiPhone } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
+import { FiGithub } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
 
 function Contact() {
   return (
@@ -21,6 +23,11 @@ function Contact() {
           <span className="contact-icon"><CiLocationOn /></span>
           <span>Gilgit, Pakistan</span>
         </div>
+        <div className='social'>
+            <a href=""><FiGithub /></a>
+            <a href=""><FiLinkedin /></a>
+ 
+        </div>
       </div>
       <div className="contact-form">
         <div className="touch">
@@ -35,14 +42,14 @@ function Contact() {
             <label htmlFor="email">Email Address</label>
             <input type="email" id="email" name="email" required />
           </div>
-          <div className="form-group">
+          {/* <div className="form-group">
             <label htmlFor="company">Company Name</label>
             <input type="text" id="company" name="company" />
           </div>
           <div className="form-group">
             <label htmlFor="subject">Subject</label>
             <input type="text" id="subject" name="subject" />
-          </div>
+          </div> */}
           <div className="form-group">
             <label htmlFor="message">Message</label>
             <textarea id="message" name="message" required></textarea>
