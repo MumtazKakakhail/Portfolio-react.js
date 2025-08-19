@@ -1,12 +1,55 @@
 import React from 'react'
 import "./Contact.css"
+import { AiOutlineMail } from "react-icons/ai";
+import { CiPhone } from "react-icons/ci";
+import { CiLocationOn } from "react-icons/ci";
+
 function Contact() {
   return (
-    <div className='contact-form'>
-      <div className="touch">
-        <h2>Get in touch</h2>
+    <div id='contact' className='contact-section'>
+      <div className="contact-info">
+        <h3>Contact information</h3>
+        <div className='contact'>
+          <span className="contact-icon"><AiOutlineMail /></span>
+          <a href="mailto:mumtazwalikakakhail@gmail.com">mumtazwalikakakhail@gmail.com</a>
+        </div>
+        <div className='contact'>
+          <span className="contact-icon"><CiPhone /></span>
+          <a href="tel:+923478242245">+92 3478242245</a>
+        </div>
+        <div className='contact'>
+          <span className="contact-icon"><CiLocationOn /></span>
+          <span>Gilgit, Pakistan</span>
+        </div>
       </div>
-      <div className="info"></div>
+      <div className="contact-form">
+        <div className="touch">
+          <h2>Get In Touch</h2>
+        </div>
+        <form action="#" method="POST">
+          <div className="form-group">
+            <label htmlFor="name">Full Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email Address</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="company">Company Name</label>
+            <input type="text" id="company" name="company" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="subject">Subject</label>
+            <input type="text" id="subject" name="subject" />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" className="btn">Send Message</button>
+        </form>
+      </div>
     </div>
   )
 }
