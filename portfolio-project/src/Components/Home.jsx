@@ -27,7 +27,10 @@ function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <Typewriter text={"Hello"} />
+          <span className="hello-inline">
+    <Typewriter text={"Hello"} />
+    <span className="blue-dot"> .</span>
+  </span>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -30 }}
