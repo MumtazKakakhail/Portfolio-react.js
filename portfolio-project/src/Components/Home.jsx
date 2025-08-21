@@ -6,20 +6,6 @@ import { motion } from "framer-motion"
 import { Typewriter } from './Typewriter'
 function Home() {
   return (
-//     <div id='home' className='Hero-section'>
-
-//       <div className='Hero'>
-//         <Typewriter text={"Hello"} />
-//         <Typewriter text={"I'm Mumtaz Wali"} />
-//         <Typewriter text={"Frontend Developer"} />
-//         <button><a href="">My resume</a></button>
-//       </div>
-//       {/* <div className="Hero-button">
-//             </div> */}
-//       <div className='Hero-img'>
-//         <img src={heroImage} alt="Mumtaz Wali"/>
-//       </div>
-//     </div>
  <div id='home' className='Hero-section'>
       <div className='Hero'>
         <motion.div
