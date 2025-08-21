@@ -66,6 +66,10 @@
   font-size: 1.6rem;
   font-weight: 700;
 }
+.touch p {
+  color: rgb(207, 206, 206);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .form-group {
   display: flex;
@@ -110,6 +114,7 @@
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
+  float: inline-end;
   cursor: pointer;
   margin-top: 8px;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.10);
