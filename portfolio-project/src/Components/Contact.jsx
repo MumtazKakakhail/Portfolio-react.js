@@ -25,7 +25,7 @@ function Contact() {
         </div>
         <div className='social'>
             <a href=""><FiGithub /></a>
-            <a href=""><FiLinkedin /></a>
+            <a href="www.linkedin.com/in/mumtaz-wali-b67b26246"><FiLinkedin /></a>
  
         </div>
       </div>
