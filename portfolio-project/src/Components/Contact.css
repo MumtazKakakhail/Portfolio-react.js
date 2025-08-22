@@ -1,6 +1,6 @@
 .form {
- background: linear-gradient(120deg, #0b0e29 70%, #000000 100%);
- padding: 4rem;
+  background: linear-gradient(120deg, #0b0e29 70%, #000000 100%);
+  padding: 4rem;
 }
 .contact-form {
   flex: 1 1 320px;
@@ -57,14 +57,14 @@
   color: #f4f6f8;
   transition: border-color 0.2s, box-shadow 0.2s;
   resize: vertical;
-  box-shadow: 0 2px 8px rgba(37,99,235,0.05);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.05);
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   border-color: #38bdf8;
   outline: none;
-  box-shadow: 0 0 0 2px rgba(56,189,248,0.18);
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.18);
 }
 
 .form-group textarea {
@@ -82,7 +82,7 @@
   font-weight: 600;
   cursor: pointer;
   margin-top: 6px;
-  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.10);
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
   letter-spacing: 1px;
   position: relative;
@@ -94,6 +94,4 @@
   background: linear-gradient(90deg, #4338ca 60%, #2563eb 100%);
   transform: scale(1.05) translateY(-2px);
   box-shadow: 0 8px 24px rgba(56, 189, 248, 0.22);
-
 }
-
