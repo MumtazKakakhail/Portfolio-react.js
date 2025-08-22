@@ -4,8 +4,9 @@
   justify-content: space-between;
   min-height: 80vh;
   padding: 2rem 5vw;
-  background: rgb(18, 13, 32);
-  /* background-image: url(./images/js.jpg); */
+  /* background: rgb(18, 13, 32); */
+  background: repeating-linear-gradient(45deg, #081331, #040633 1000px);
+
 }
 
 .Hero {
@@ -42,20 +43,15 @@
 }
 
 .resume-btn {
-  background: #6366f1;
+ background: linear-gradient(90deg, #2563eb 60%, #38bdf8 100%);
   color: #fff;
   border: none;
-  padding: 0.8rem;
+  padding: 0.9rem 2.2rem;
   border-radius: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
   transition: background 0.2s, transform 0.2s;
-}
-
-.resume-btn:hover {
-  background: #4338ca;
-  transform: scale(1.05);
 }
 
 .resume-btn a {
@@ -64,3 +60,26 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+.resume-btn:hover {
+  background: linear-gradient(90deg, #4338ca 60%, #2563eb 100%);
+  transform: scale(1.07) translateY(-2px);
+  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.22);
+}
+.resume-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background: rgba(37, 99, 235, 0.18);
+  transition: width 0.3s;
+  border-radius: 2rem;
+  z-index: 0;
+}
+
+
+
+
+
+
