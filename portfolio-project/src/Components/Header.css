@@ -1,35 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 3.58rem;
-    background-color:rgb(18, 13, 32);
-    color: white;
-    text-decoration: none;
-   
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4.58rem;
+  background-color: rgb(18, 13, 32);
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 94.5%;
+  z-index: 100;
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: none;
+}
+.header h1 {
+  animation: fadeSlideIn 1s ease;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #2563eb 30%, #38bdf8 70%, #f59e42 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateY(10px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 .nav-links {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    text-decoration: none;
-    gap: 3.8rem;
-    justify-content: space-evenly;
-    font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2.5rem;
+  justify-content: space-evenly;
+  font-size: 1rem;
+  align-items: center;
 }
 .nav-links li {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+  position: relative;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.2s;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
 }
-.nav-links  a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
 }
-.nav-links  a:hover {
-    color: rgb(216, 112, 38);
+.nav-links a:hover,
+.nav-links li:hover {
+  color: #2563eb;
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #2563eb 40%, #f59e42 100%);
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }

@@ -1,8 +1,7 @@
-import React from 'react'
 import "./Header.css"
 function Header() {
   return (
-    <div className='header'>
+    <div className="header">
       <div><h1>MUMTAZ WALI</h1></div>
       <nav>
         <ul className="nav-links">
