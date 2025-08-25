@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { TiSocialLinkedin } from "react-icons/ti";
+// import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithub } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
 import { SiFiverr } from "react-icons/si";
@@ -14,7 +14,7 @@ function Footer() {
             </div>
             <div className="socials">
                 <h2 className='heading'>SOCIAL</h2>
-              <a href=""><TiSocialLinkedin /></a> 
+              {/* <a href=""><TiSocialLinkedin /></a>  */}
                <a href=""><FaGithub /></a> 
                <a href=""><SiUpwork /></a> 
                <a href=""><SiFiverr /></a> 
