@@ -63,3 +63,42 @@
   z-index: 1;
 }
 
+
+
+@media (max-width: 900px) {
+  .Skills {
+    padding: 1.5rem 0.5rem;
+  }
+  .Skills h2 {
+    font-size: 2rem;
+    margin-bottom: 28px;
+  }
+  .skill-cards {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+    padding-bottom: 1rem;
+  }
+  .skill-card {
+    padding: 18px 10px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Skills {
+    padding: 1rem 0.2rem;
+  }
+  .Skills h2 {
+    font-size: 1.3rem;
+    margin-bottom: 18px;
+  }
+  .skill-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding-bottom: 0.5rem;
+  }
+  .skill-card {
+    padding: 12px 6px;
+    font-size: 0.95rem;
+  }
+}
