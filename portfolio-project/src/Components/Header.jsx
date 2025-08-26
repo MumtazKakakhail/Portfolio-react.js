@@ -15,9 +15,6 @@ function Header() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
         <a href="" className="menu"> <HiMenu /></a> 
-          {/* <span />
-          <span />
-          <span /> */}
         </div>
         <ul className={`nav-links${menuOpen ? " show" : ""}`}>
           <li><a href="#home">Home</a></li>
