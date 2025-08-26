@@ -119,7 +119,7 @@
 
 @media (max-width: 600px) {
   .Hero-section {
-    padding: 1rem 0.5rem;
+    padding: 4rem 1rem;
     min-height: 60vh;
     align-items: flex-start; 
   }
