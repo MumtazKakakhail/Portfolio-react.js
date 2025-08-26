@@ -93,3 +93,64 @@
 .nav-links a:hover::after {
   width: 100%;
 }
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-right: 5rem;
+  z-index: 101;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  font-size: 2rem;
+  color: #2563eb;
+  background: rgba(56,189,248,0.08);
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s, transform 0.3s;
+}
+
+.menu-toggle.open .menu {
+  background: #2563eb;
+  color: #fff;
+  transform: rotate(90deg) scale(1.1);
+}
+
+.menu:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: rgb(18, 13, 32);
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    display: none;
+    z-index: 99;
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.10);
+  }
+  .nav-links.show {
+    display: flex;
+  }
+}
