@@ -59,3 +59,82 @@
   line-height: 1.5;
   padding-bottom: 16px;
 }
+
+
+/* Responsive styles for About section */
+@media (max-width: 900px) {
+  .About {
+    padding: 2rem 0.5rem;
+  }
+  .About-Me {
+    padding: 1.2rem 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .Me {
+    font-size: 2.2rem;
+    text-align: left;
+  }
+  .para-me {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    text-align: left;
+  }
+  .About-Cards {
+    flex-direction: column;
+    gap: 18px;
+    padding: 1rem 0.5rem;
+    max-width: 100%;
+    align-items: stretch;
+  }
+  .card {
+    padding: 18px 8px;
+    font-size: 0.98rem;
+  }
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  .card p {
+    font-size: 0.95rem;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .About {
+    padding: 1rem 0.2rem;
+  }
+  .About-Me {
+    padding: 0.7rem 0.2rem;
+  }
+  .Me {
+    font-size: 1.5rem;
+  }
+  .About-Cards {
+    gap: 12px;
+    padding: 0.5rem 0.2rem;
+  }
+  .card {
+    padding: 12px 4px;
+    font-size: 0.95rem;
+  }
+  .card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  .card h2 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .card p {
+    font-size: 0.9rem;
+    padding-bottom: 6px;
+  }
+}
+
