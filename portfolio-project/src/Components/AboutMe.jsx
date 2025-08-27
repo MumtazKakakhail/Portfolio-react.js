@@ -17,22 +17,22 @@ function AboutMe() {
             </div>
             <div className="About-Cards">
                 <div className="card">
-                   <h className="card-icon"> <FaCode /></h>
+                    <h className="card-icon"> <FaCode /></h>
                     <h2>Clean Code</h2>
                     <p>Writing maintainable, scalable, and well-documented code following best practices.</p>
                 </div>
                 <div className="card">
-                   <h className="card-icon"><LuPalette /></h>
+                    <h className="card-icon"><LuPalette /></h>
                     <h2>Modern Design</h2>
                     <p>Creating beautiful and intuitive user interfaces with attention to detail.</p>
                 </div>
                 <div className="card">
-                   <h className="card-icon"><RxLightningBolt/></h>
+                    <h className="card-icon"><RxLightningBolt /></h>
                     <h2>Performance</h2>
                     <p>Optimizing applications for speed and efficiency across all devices.</p>
                 </div>
                 <div className="card">
-                  <h className="card-icon">< LuUsers /></h>
+                    <h className="card-icon">< LuUsers /></h>
                     <h2>Collaboration</h2>
                     <p>Working effectively with teams to deliver outstanding results.</p>
                 </div>
