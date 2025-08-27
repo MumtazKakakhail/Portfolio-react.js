@@ -14,7 +14,7 @@ function Header() {
           className={`menu-toggle${menuOpen ? " open" : ""}`}
           onClick={() => setMenuOpen(!menuOpen)}
         >
-        <a href="" className="menu"> <HiMenu /></a> 
+          <a href="" className="menu"> <HiMenu /></a>
         </div>
         <ul className={`nav-links${menuOpen ? " show" : ""}`}>
           <li><a href="#home">Home</a></li>
