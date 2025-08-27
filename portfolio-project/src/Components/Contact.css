@@ -96,8 +96,6 @@
   box-shadow: 0 8px 24px rgba(56, 189, 248, 0.22);
 }
 
-
-
 @media (max-width: 900px) {
   .form {
     padding: 2rem 0.5rem;
