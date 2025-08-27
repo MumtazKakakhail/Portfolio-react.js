@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import { Typewriter } from './Typewriter'
 function Home() {
   return (
- <div id='home' className='Hero-section'>
+    <div id='home' className='Hero-section'>
       <div className='Hero'>
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -14,9 +14,9 @@ function Home() {
           transition={{ duration: 0.8 }}
         >
           <span className="hello-inline">
-    <Typewriter text={"Hello"} />
-    <span className="blue-dot"> .</span>
-  </span>
+            <Typewriter text={"Hello"} />
+            <span className="blue-dot"> .</span>
+          </span>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -30 }}
