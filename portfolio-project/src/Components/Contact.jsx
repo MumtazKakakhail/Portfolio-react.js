@@ -8,27 +8,6 @@ import { FiLinkedin } from "react-icons/fi";
 
 function Contact() {
   return (
-    // < id='contact' className='contact-section'>
-    //   <div className="contact-info">
-    //     <h3>Contact information</h3>
-    //     <div className='contact'>
-    //       <span className="contact-icon"><AiOutlineMail /></span>
-    //       <a href="mailto:mumtazwalikakakhail@gmail.com">mumtazwalikakakhail@gmail.com</a>
-    //     </div>
-    //     <div className='contact'>
-    //       <span className="contact-icon"><CiPhone /></span>
-    //       <a href="tel:+923478242245">+92 3478242245</a>
-    //     </div>
-    //     <div className='contact'>
-    //       <span className="contact-icon"><CiLocationOn /></span>
-    //       <span>Gilgit, Pakistan</span>
-    //     </div>
-    //     <div className='social'>
-    //         <a href=""><FiGithub /></a>
-    //         <a href="www.linkedin.com/in/mumtaz-wali-b67b26246"><FiLinkedin /></a>
- 
-    //     </div>
-    //   </div>
     <div  id='contact' className='form'>
       <div  className="contact-form">
         <div className="touch">
