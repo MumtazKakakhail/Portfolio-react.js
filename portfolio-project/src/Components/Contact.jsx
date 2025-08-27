@@ -1,10 +1,5 @@
 import React from 'react'
 import "./Contact.css"
-import { AiOutlineMail } from "react-icons/ai";
-import { CiPhone } from "react-icons/ci";
-import { CiLocationOn } from "react-icons/ci";
-import { FiGithub } from "react-icons/fi";
-import { FiLinkedin } from "react-icons/fi";
 
 function Contact() {
   return (
