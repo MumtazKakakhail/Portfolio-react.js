@@ -10,14 +10,14 @@ function Footer() {
             <div className="container">
                 <h2 className='heading'>MUMTAZ WALI</h2>
                 <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications <br />
-                 that leads to the success of the overall product.</p>
+                    that leads to the success of the overall product.</p>
             </div>
             <div className="socials">
                 <h2 className='heading'>SOCIAL</h2>
-              {/* <a href=""><TiSocialLinkedin /></a>  */}
-               <a href=""><FaGithub /></a> 
-               <a href=""><SiUpwork /></a> 
-               <a href=""><SiFiverr /></a> 
+                {/* <a href=""><TiSocialLinkedin /></a>  */}
+                <a href=""><FaGithub /></a>
+                <a href=""><SiUpwork /></a>
+                <a href=""><SiFiverr /></a>
             </div>
         </div>
     )
