@@ -99,6 +99,7 @@
     min-height: 70vh;
     padding: 4rem 1rem;
     gap: 2rem;
+    background: repeating-linear-gradient(45deg, #081331, #040633 1000px);
   }
   .Hero {
     font-size: 1.3rem;
@@ -119,6 +120,7 @@
     padding: 4rem 1rem;
     min-height: 60vh;
     align-items: flex-start;
+    background: repeating-linear-gradient(45deg, #081331, #040633 1000px);
   }
   .Hero {
     font-size: 1rem;
