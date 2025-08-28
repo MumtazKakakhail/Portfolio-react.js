@@ -38,7 +38,7 @@ function Home() {
           transition={{ duration: 0.5, delay: 1 }}
           className="resume-btn"
         >
-          <a href="">My resume</a>
+          <a href="/My Resume (1).pdf" target="_blank" rel="noopener noreferrer">My resume</a>
         </motion.button>
       </div>
       <div className='Hero-img'>
