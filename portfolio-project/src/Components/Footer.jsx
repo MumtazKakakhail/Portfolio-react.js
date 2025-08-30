@@ -13,12 +13,37 @@ function Footer() {
             </div>
             <div className="socials">
                 <h2 className='heading'>SOCIAL</h2>
-                <a href=""><FaGithub /></a>
-                <a href=""><SiUpwork /></a>
-                <a href=""><SiFiverr /></a>
+                <a
+          className="social-link"
+          href="https://github.com/MumtazKakakhail"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub />
+        </a>
+                 <a
+          className="social-link"
+          href="https://www.fiverr.com//freelancers/mumtazwali463"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Fiverr"
+        >
+          <SiFiverr />
+        </a>
+         <a
+          className="social-link"
+          href="https://www.upwork.com/freelancers/~019a2b3605346dab1b"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Upwork "
+        >
+          <SiUpwork  />
+        </a>
             </div>
         </div>
     )
 }
 
-export default Footer
+export default Footer;
+
