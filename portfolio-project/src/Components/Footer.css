@@ -19,10 +19,10 @@
   letter-spacing: 1px;
 }
 .socials a {
-  margin-top: 2rem;
+  margin-top: 0.6srem;
   padding: 0.6rem;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {
@@ -44,7 +44,7 @@
     font-size: 0.95rem;
   }
   .socials a {
-    font-size: 1.7rem;
+    font-size: 1rem;
     padding: 0.5rem;
   }
 }
@@ -63,7 +63,7 @@
     line-height: 1.5;
   }
   .socials a {
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     padding: 0.3rem;
   }
 }
@@ -72,9 +72,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 23px;
   background: rgba(255, 255, 255, 0.03);
   color: #ffffff;
   font-size: 1.1rem;

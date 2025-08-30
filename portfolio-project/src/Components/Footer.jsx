@@ -22,6 +22,15 @@ function Footer() {
         >
           <FaGithub />
         </a>
+         <a
+          className="social-link"
+          href="https://www.upwork.com/freelancers/~019a2b3605346dab1b?viewMode=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Upwork "
+        >
+          <SiUpwork  />
+        </a>
                  <a
           className="social-link"
           href="https://www.fiverr.com//freelancers/mumtazwali463"
@@ -31,15 +40,7 @@ function Footer() {
         >
           <SiFiverr />
         </a>
-         <a
-          className="social-link"
-          href="https://www.upwork.com/freelancers/~019a2b3605346dab1b"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Upwork "
-        >
-          <SiUpwork  />
-        </a>
+        
             </div>
         </div>
     )
