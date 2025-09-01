@@ -17,7 +17,7 @@ function AboutMe() {
             </div>
             <div className="About-Cards">
                 <div className="card">
-                    <h className="card-icon"> <FaCode /></h>
+                    <h className="card-icon"></h>
                     <h2>Clean Code</h2>
                     <p>Writing maintainable, scalable, and well-documented code following best practices.</p>
                 </div>
